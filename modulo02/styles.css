@@ -1,0 +1,175 @@
+/* Sempre bom seguir a ordem que está dentro do HTML para o melhor entendimento */
+/* Fonte escolhida no https://fonts.google.com */
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"; 
+
+/* Criação de variáveis no CSS */
+:root {
+    --color-green:  #50fa7b;
+    --color-rocket: #7159c1;
+}
+
+
+/* zera todo o espaçamento do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    text-align: center;
+}
+
+/* Pega as classes .links */
+.links a {
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+/* quando passar o mouse em cima do menu, vai alterar a cor */
+.links a:hover {
+    color: var(--color-green);
+    transition: color 200ms;
+}
+
+/* Para pegar um seletor de ID digite # */
+#wrapper {
+    text-align: center; /* Tudo que estiver dentro do wrapper, imagem e texto será alinhado ao centro */
+    padding: 32px; /* Dá espaçamento acima, abaixo e nas laterais*/
+}
+
+#wrapper img {
+    border-radius: 50%; /* Deixa as bordas da foto que é quadrada, redonda. */
+    border: 5px solid var(--color-green); /* Deixa a borda da foto na cor verde */
+    margin-bottom: 20px; /* Deixa um espaço da parte abaixo da foto entre os textos */
+    height: 200px; /* Aumenta ou diminui o tamanho da imagem, dependendo do tamanho dos pixels */
+}
+
+#wrapper h1 {
+    font-size: 35px; /* Tamanho da letra */
+    line-height: 30px; /* Permite controlar o espaçamento entre as linhas de um texto. a distância é medida entre as linha de base(baseline) de duas linhas consecutivas*/
+    font-weight: bold; /* Peso da fonte, tem diversas opções, crtl + espaço vai aparecer uma relação de opções. */
+}
+
+#wrapper h2 {
+    font-size: 15px; /* Se digitar fs vai aparecer uma relação */
+    line-height: 30px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8; /* Deixar mais clara a cor do texto */
+}
+
+#wrapper h2 a {
+    color: var(--color-green);
+}
+
+#wrapper p {
+    max-width: 500px; /* Máxima largura, para quebrar a linha */
+    margin: 32px auto; /* Artimanha para que o texto fique no cetro, se não houvesse esse comando o texto ficaria totalmente a esquerda */
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#links-footer a{
+    border-bottom: 1px solid var(--color-green);
+
+}
+
+/*==== CARDS ====*/
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: grid; /* display: grid vai deixar um do lado do outro */
+    grid-template-columns: 1fr 1fr 1fr; /* grid-template-columns três colunas 1fr flexivel */
+    gap: 20px; /* gap vai separar as colunas */
+
+}
+
+.card {
+    background-color: var(--color-rocket);
+}
+
+.card__image-container img {
+    width: 100%;
+}
+
+.card__content,
+.card__info {
+    background-color: var(--color-rocket);
+    padding: 24px;
+}
+
+/* grid-template-columns duas colunas 1fr flexivel */
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.card__price {
+    background-color: var(--color-rocket);
+    /* filter: brigthness vai deixar o brilho mais escuro */
+    filter: brightness(90%);
+    /* paggind 5px nas laterais e 20px encima e embaixo */
+    padding: 5px 20px;
+    /* deixa as bordas arrendondadas */
+    border-radius: 20px;
+    /* deixa o texto centralizado */
+    text-align: center;
+}
+
+/* === MODAL === */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0; /* Nesse comando que vai cobrir a tela toda */
+    opacity: 0; /* tira a tela do modal */
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative; /* Usar esse comando para que no close-modal o position: absolute, possa aparecer o icone close. */
+}
+
+.modal .close-modal {
+    color: black;
+    position: absolute; /* Posso usar a tela toda do modal */
+    right: 8px;
+    top: 8px;
+    cursor: pointer; /* Mãozinha */
+}
+
+/* === MODAL.ACTIVE === */
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    position: absolute; /* O pai dele não completa toda a tela, por isso a necessidade de usar esse comando */
+    width: 100%;
+    height: 90%;
+    top: 5%;
+}
