@@ -33,6 +33,7 @@
 
 ---
 ## Desafio 2-3
+![Rocketseat Bootcamp Desafio 2-3 - Google Chrome 2020-07-15 11-52-53](https://user-images.githubusercontent.com/64690628/87568817-a2fe6400-c69c-11ea-9ab0-2c422b16df68.gif)
 
 ---
 ## Video dinâmico
