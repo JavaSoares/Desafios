@@ -20,14 +20,14 @@
 ### Desafios Módulo 1 Javascript 1-1 até 1-4.
 - 1-1 Primeiros passos com Javascript;
 - 1-2 Lidando com objetos e vetores;
-- 1-3 Funções e estruturas de repetição
-- 1-4 Aplicação e operações bancárias
+- 1-3 Funções e estruturas de repetição;
+- 1-4 Aplicação e operações bancárias.
 
 ### Desafios Módulo 2 Frontend 2-1 até 2-3.
 - 2-1 Primeiro HTML;
 - 2-2 Página de descrição;
-- 2-3 Página de cursos e iframe.
-- Video dinâmico - index.html / classes.html
+- 2-3 Página de cursos e iframe;
+- Video dinâmico - index.html / classes.html.
 
 ---
 ## Desafio 2-3
