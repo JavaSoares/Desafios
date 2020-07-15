@@ -1,5 +1,5 @@
 <h3 align="center">
-  Desafios - Rocketseat LaunchBase Bootcamp 
+  Rocketseat LaunchBase Bootcamp - Desafios
 </h3>
 
 ![Wallpaper LaunchBase 2 0 - 2560x1600](https://user-images.githubusercontent.com/64690628/87568539-2ff4ed80-c69c-11ea-8590-d71eed1318a6.png)
