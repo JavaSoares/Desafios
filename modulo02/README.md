@@ -35,6 +35,7 @@
 
 ---
 ## Video dinâmico
+![Jair de Oliveira Soares - Google Chrome 2020-07-15 12-02-04](https://user-images.githubusercontent.com/64690628/87569043-f7094880-c69c-11ea-9173-fe81f20ebb7a.gif)
 
 ---
 ## 🚀 Tecnologias utilizadas
