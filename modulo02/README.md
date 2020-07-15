@@ -13,8 +13,6 @@
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
-- [Desafio 2-3](#-desafio-2-3)
-- [Video dinâmico](#-video-dinâmico)
 
 ---
 ## 📝 Sobre
